@@ -4,7 +4,9 @@ const router = Router();
 //Raiz
 router.get('/', (req, res) => {    
     res.send(
-       `<p>Bienvenido a la API de Los Simpsons Argentina.</p>
+       `
+       <span> v-1.0.2 </span>
+       <p>Bienvenido a la API de Los Simpsons Argentina.</p>
        <p>Para consultar los servicios disponibles ingresa a: <a href="localhost:4000" >Swagger</a></p>
        
        `
