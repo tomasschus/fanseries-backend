@@ -16,7 +16,7 @@ router.get('/', (req, res) => {
 router.get('/api/allLinks', (req, res) => { 
     const fs = require('fs');
 
-    let rawdata = fs.readFileSync('./routes/caps.json');
+    let rawdata = fs.readFileSync('./routes/idsSendVid.json');
     let caps = JSON.parse(rawdata);
 
     res.json(caps);
